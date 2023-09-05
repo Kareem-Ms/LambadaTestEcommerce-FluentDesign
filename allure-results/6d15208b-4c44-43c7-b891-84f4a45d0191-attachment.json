@@ -1,0 +1,14 @@
+{
+  "UserInfo": {
+    "firstName": "Mohamed",
+    "LastName": "Ahmed",
+    "email": "johnDoe",
+    "domain": "@gmail.com",
+    "phoneNumber": "01129345877",
+    "password": "tester123"
+  },
+  "messages": {
+    "SuccessfullRegistration": "Account Has Been Created",
+    "EmailTakenErrorMsg": "E-Mail Address is already registered"
+  }
+}
