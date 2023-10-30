@@ -1,0 +1,83 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                          Test Method: 'tests.CheckOutTests.verifyCheckoutSuccessfully'                                          
+                                     Test Description: 'Verify checkout functionality for specific product'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:39.0012 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:39.0013 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:40.0635 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:40.0636 PM
+[ReportManager] Target URL: "https://ecommerce-playground.lambdatest.io/index.php?route=account/register" @30-10-2023 12:38:40.0740 PM
+[ReportManager] Initial URL: "about:blank" @30-10-2023 12:38:40.0764 PM
+[ReportManager] Navigate to url "https://ecommerce-playground.lambdatest.io/index.php?route=account/register". @30-10-2023 12:38:43.0943 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:43.0948 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:43.0949 PM
+[ReportManager] Type "Mohamed" into "First Name*". @30-10-2023 12:38:44.0220 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:44.0221 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:44.0221 PM
+[ReportManager] Type "Ahmed" into "Last Name*". @30-10-2023 12:38:44.0410 PM
+[ReportManager] Type "johnDoe30102023123839011@gmail.com" into "E-Mail*". @30-10-2023 12:38:44.0581 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:44.0582 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:44.0583 PM
+[ReportManager] Type "01129345877" into "Telephone*". @30-10-2023 12:38:44.0725 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:44.0726 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:44.0726 PM
+[ReportManager] Type "tester123" into "Password*". @30-10-2023 12:38:44.0885 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:44.0885 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:44.0886 PM
+[ReportManager] Type "tester123" into "Password Confirm*". @30-10-2023 12:38:45.0046 PM
+[ReportManager] Moved the mouse to the middle of the element. @30-10-2023 12:38:45.0273 PM
+[ReportManager] Click "By.xpath: //label[@for = 'input-newsletter-yes']". @30-10-2023 12:38:45.0353 PM
+[ReportManager] Moved the mouse to the middle of the element. @30-10-2023 12:38:45.0548 PM
+[ReportManager] Click "By.xpath: //label[@for = 'input-agree']". @30-10-2023 12:38:45.0583 PM
+[ReportManager] Moved the mouse to the middle of the element. @30-10-2023 12:38:45.0781 PM
+[ReportManager] Click "Continue". @30-10-2023 12:38:45.0829 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:45.0838 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:45.0839 PM
+[ReportManager] Get text "Your Account Has Been Created!" from " Your Account Has Been Created!". @30-10-2023 12:38:47.0847 PM
+[ReportManager] Expected "Account Has Been Created", and actual "Your Account Has Been Created!" @30-10-2023 12:38:47.0848 PM
+[ReportManager] Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'Account Has Been Created' for the 'text' attribute, element locator 'By.className: page-title'" and Actual "Your Account Has Been Created!". Comparison Type "CONTAINS". Validation Type "POSITIVE". @30-10-2023 12:38:49.0450 PM
+[ReportManager] Verification Passed: The Element located by "By.className: page-title" text contains "Account Has Been Created". @30-10-2023 12:38:49.0451 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1698662328797_verifyCheckoutSuccessfully_ValidateElementAttribute_passed' @30-10-2023 12:38:49.0478 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:49.0480 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:49.0481 PM
+[ReportManager] Type "iPod Shuffle" into "Search For Products". @30-10-2023 12:38:49.0622 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:49.0623 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:49.0623 PM
+[ReportManager] Moved the mouse to the middle of the element. @30-10-2023 12:38:50.0228 PM
+[ReportManager] Click "iPod Shuffle". @30-10-2023 12:38:50.0271 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:50.0277 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"". @30-10-2023 12:38:50.0279 PM
+[ReportManager] Attempting to getAttribute "hidden" from elementLocator "By.xpath: //h1[text() = 'iPod Shuffle']". @30-10-2023 12:38:52.0902 PM
+[ReportManager] Get attribute from "iPod Shuffle". @30-10-2023 12:38:52.0966 PM
+[ReportManager] Expected "null", and actual "null" @30-10-2023 12:38:52.0967 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.xpath: //h1[text() = 'iPod Shuffle']'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE". @30-10-2023 12:38:53.0700 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //h1[text() = 'iPod Shuffle']" is visible, hidden attribute is equal to "null". @30-10-2023 12:38:53.0702 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1698662333462_verifyCheckoutSuccessfully_ValidateElementAttribute_passed' @30-10-2023 12:38:53.0706 PM
+[ReportManager] Moved the mouse to the middle of the element. @30-10-2023 12:38:53.0910 PM
+[ReportManager] Click "ADD TO CART". @30-10-2023 12:38:54.0017 PM
+[ReportManager] Moved the mouse to the middle of the element. @30-10-2023 12:38:54.0815 PM
+[ReportManager] Click "Close". @30-10-2023 12:38:54.0882 PM
+[ReportManager] Moved the mouse to the middle of the element. @30-10-2023 12:38:55.0078 PM
+[ReportManager] Click "1". @30-10-2023 12:38:55.0109 PM
+[ReportManager] Attempting to getAttribute "hidden" from elementLocator "By.xpath: //a[text() = 'iPod Shuffle' and @data-toggle = 'tooltip']". @30-10-2023 12:38:55.0152 PM
+[ReportManager] Get attribute from "iPod Shuffle". @30-10-2023 12:38:55.0224 PM
+[ReportManager] Expected "null", and actual "null" @30-10-2023 12:38:55.0225 PM
+[ReportManager] Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.xpath: //a[text() = 'iPod Shuffle' and @data-toggle = 'tooltip']'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE". @30-10-2023 12:38:55.0995 PM
+[ReportManager] Assertion Passed: The Element located by "By.xpath: //a[text() = 'iPod Shuffle' and @data-toggle = 'tooltip']" is visible, hidden attribute is equal to "null". @30-10-2023 12:38:55.0995 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1698662335784_verifyCheckoutSuccessfully_ValidateElementAttribute_passed' @30-10-2023 12:38:55.0999 PM
+[ReportManager] Moved the mouse to the middle of the element. @30-10-2023 12:38:56.0182 PM
+[ReportManager] Click " Checkout". @30-10-2023 12:38:56.0243 PM
+[ReportManager] Type "Ahmed" into "First Name*". @30-10-2023 12:39:00.0561 PM
+[ReportManager] Type "mohamed" into "Last Name*". @30-10-2023 12:39:00.0702 PM
+[ReportManager] Type "Address 1" into "Address 1*". @30-10-2023 12:39:00.0859 PM
+[ReportManager] Type "Cairo" into "City*". @30-10-2023 12:39:00.0986 PM
+[ReportManager] Select "Egypt" from "Country*". @30-10-2023 12:39:02.0982 PM
+[ReportManager] Select "Ad Daqahliyah" from "Region / State*". @30-10-2023 12:39:03.0829 PM
+[ReportManager] Moved the mouse to the middle of the element. @30-10-2023 12:39:04.0594 PM
+[ReportManager] Click "By.cssSelector: label[for = 'input-agree']". @30-10-2023 12:39:04.0653 PM
+[ReportManager] Moved the mouse to the middle of the element. @30-10-2023 12:39:04.0827 PM
+[ReportManager] Click "Continue ". @30-10-2023 12:39:04.0862 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp' @30-10-2023 12:39:04.0868 PM

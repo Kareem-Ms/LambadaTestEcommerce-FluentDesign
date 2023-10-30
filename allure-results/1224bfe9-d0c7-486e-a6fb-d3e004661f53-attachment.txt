@@ -1,0 +1,143 @@
+[INFO ] 2023-10-30 12:38:30.482 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.3.20230829[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-30 12:38:35.053 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2023-10-30 12:38:35.054 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2023-10-30 12:38:35.153 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2023-10-30 12:38:35.628 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2023-10-30 12:38:35.812 [main] Utils - [TestNG] Running:
+  C:\Users\usama\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[INFO ] 2023-10-30 12:38:35.842 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-30 12:38:35.960 [main] ReportManager - Initializing Important Links...
+[INFO ] 2023-10-30 12:38:35.967 [main] ReportManager - Initializing Properties...
+[INFO ] 2023-10-30 12:38:36.097 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                           'tests.CheckOutTests.setUp'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-30 12:38:36.132 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2023-10-30 12:38:36.156 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: C:\Users\usama\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2023-10-30 12:38:36.157 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Attempting to run locally on: "windows | Chrome".
+[INFO ] 2023-10-30 12:38:36.158 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Identifying OS/Driver combination and selecting the correct driver version automatically. Please note that if a new driver executable will be downloaded it may take some time...
+[WARN ] 2023-10-30 12:38:38.811 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Oct 30, 2023 12:38:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2023-10-30 12:38:38.812 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - WARNING: Unable to find an exact match for CDP version 118, so returning the closest version found: 115
+[INFO ] 2023-10-30 12:38:38.823 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Successfully Opened: "windows | Chrome".
+[INFO ] 2023-10-30 12:38:38.833 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:38.834 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:38.834 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:38.856 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2023-10-30 12:38:39.000 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                          Test Method: 'tests.CheckOutTests.verifyCheckoutSuccessfully'                                          
+                                     Test Description: 'Verify checkout functionality for specific product'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-30 12:38:39.012 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:39.013 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:40.635 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:40.636 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:40.740 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Target URL: "https://ecommerce-playground.lambdatest.io/index.php?route=account/register"
+[INFO ] 2023-10-30 12:38:40.764 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Initial URL: "about:blank"
+[INFO ] 2023-10-30 12:38:43.947 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Navigate to url "https://ecommerce-playground.lambdatest.io/index.php?route=account/register".
+[INFO ] 2023-10-30 12:38:43.948 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:43.949 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:44.220 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Type "Mohamed" into "First Name*".
+[INFO ] 2023-10-30 12:38:44.221 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:44.221 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:44.410 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Type "Ahmed" into "Last Name*".
+[INFO ] 2023-10-30 12:38:44.581 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Type "johnDoe30102023123839011@gmail.com" into "E-Mail*".
+[INFO ] 2023-10-30 12:38:44.582 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:44.583 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:44.726 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Type "01129345877" into "Telephone*".
+[INFO ] 2023-10-30 12:38:44.726 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:44.726 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:44.885 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Type "tester123" into "Password*".
+[INFO ] 2023-10-30 12:38:44.885 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:44.886 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:45.046 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Type "tester123" into "Password Confirm*".
+[INFO ] 2023-10-30 12:38:45.273 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-10-30 12:38:45.353 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Click "By.xpath: //label[@for = 'input-newsletter-yes']".
+[INFO ] 2023-10-30 12:38:45.548 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-10-30 12:38:45.583 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Click "By.xpath: //label[@for = 'input-agree']".
+[INFO ] 2023-10-30 12:38:45.781 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-10-30 12:38:45.829 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Click "Continue".
+[INFO ] 2023-10-30 12:38:45.838 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:45.839 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:47.847 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Get text "Your Account Has Been Created!" from " Your Account Has Been Created!".
+[INFO ] 2023-10-30 12:38:47.848 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Expected "Account Has Been Created", and actual "Your Account Has Been Created!"
+[INFO ] 2023-10-30 12:38:49.450 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'Account Has Been Created' for the 'text' attribute, element locator 'By.className: page-title'" and Actual "Your Account Has Been Created!". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2023-10-30 12:38:49.478 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Successfully created attachment 'Screenshot - 1698662328797_verifyCheckoutSuccessfully_ValidateElementAttribute_passed'
+[INFO ] 2023-10-30 12:38:49.481 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:49.481 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:49.622 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Type "iPod Shuffle" into "Search For Products".
+[INFO ] 2023-10-30 12:38:49.623 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:49.623 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:50.228 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-10-30 12:38:50.271 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Click "iPod Shuffle".
+[INFO ] 2023-10-30 12:38:50.278 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:50.279 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/CheckOutTestData.json"".
+[INFO ] 2023-10-30 12:38:52.902 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Attempting to getAttribute "hidden" from elementLocator "By.xpath: //h1[text() = 'iPod Shuffle']".
+[INFO ] 2023-10-30 12:38:52.966 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Get attribute from "iPod Shuffle".
+[INFO ] 2023-10-30 12:38:52.967 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Expected "null", and actual "null"
+[INFO ] 2023-10-30 12:38:53.701 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.xpath: //h1[text() = 'iPod Shuffle']'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-10-30 12:38:53.706 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Successfully created attachment 'Screenshot - 1698662333462_verifyCheckoutSuccessfully_ValidateElementAttribute_passed'
+[INFO ] 2023-10-30 12:38:53.911 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-10-30 12:38:54.017 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Click "ADD TO CART".
+[INFO ] 2023-10-30 12:38:54.815 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-10-30 12:38:54.882 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Click "Close".
+[INFO ] 2023-10-30 12:38:55.078 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-10-30 12:38:55.109 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Click "1".
+[INFO ] 2023-10-30 12:38:55.152 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Attempting to getAttribute "hidden" from elementLocator "By.xpath: //a[text() = 'iPod Shuffle' and @data-toggle = 'tooltip']".
+[INFO ] 2023-10-30 12:38:55.224 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Get attribute from "iPod Shuffle".
+[INFO ] 2023-10-30 12:38:55.225 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Expected "null", and actual "null"
+[INFO ] 2023-10-30 12:38:55.995 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Assertion "ValidateElementAttribute" PASSED. Expected "Value Should be 'null' for the 'hidden' attribute, element locator 'By.xpath: //a[text() = 'iPod Shuffle' and @data-toggle = 'tooltip']'" and Actual "null". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2023-10-30 12:38:55.999 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Successfully created attachment 'Screenshot - 1698662335784_verifyCheckoutSuccessfully_ValidateElementAttribute_passed'
+[INFO ] 2023-10-30 12:38:56.182 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-10-30 12:38:56.243 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Click " Checkout".
+[INFO ] 2023-10-30 12:39:00.561 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Type "Ahmed" into "First Name*".
+[INFO ] 2023-10-30 12:39:00.703 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Type "mohamed" into "Last Name*".
+[INFO ] 2023-10-30 12:39:00.859 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Type "Address 1" into "Address 1*".
+[INFO ] 2023-10-30 12:39:00.986 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Type "Cairo" into "City*".
+[INFO ] 2023-10-30 12:39:02.982 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Select "Egypt" from "Country*".
+[INFO ] 2023-10-30 12:39:03.829 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Select "Ad Daqahliyah" from "Region / State*".
+[INFO ] 2023-10-30 12:39:04.594 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-10-30 12:39:04.653 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Click "By.cssSelector: label[for = 'input-agree']".
+[INFO ] 2023-10-30 12:39:04.827 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2023-10-30 12:39:04.862 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Click "Continue ".
+[INFO ] 2023-10-30 12:39:04.868 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2023-10-30 12:39:04.871 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: verifyCheckoutSuccessfully'
+[INFO ] 2023-10-30 12:39:04.871 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'tests.CheckOutTests.verifyCheckoutSuccessfully'                               
+                                     Test Description: 'Verify checkout functionality for specific product'                                     
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-30 12:39:04.885 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                         'tests.CheckOutTests.tearDown'                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-30 12:39:05.794 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Successfully Closed Driver.
+[ERROR] 2023-10-30 12:39:05.798 [TestNG-test=LambadaEcommerce-FluentDesign-1] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2023-10-30 12:39:05.799 [TestNG-test=LambadaEcommerce-FluentDesign-1] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2023-10-30 12:39:05.807 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2023-10-30 12:39:05.809 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2023-10-30 12:39:05.810 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2023-10-30 12:39:05.810 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".
