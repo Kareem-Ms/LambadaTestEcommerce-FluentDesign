@@ -36,7 +36,7 @@ public class CheckOutTests {
                 .OpenCart()
                 .verifyProductExistsInCart()
                 .openCheckoutPage()
-                .addBillingAddress();
+                .addBillingAddress() ;
     }
 
 
