@@ -55,7 +55,7 @@ public class CheckOutTests {
     @Story("Checkout products in cart")
     public void validateCheckingOut(){
         productDetailsPage.openCheckoutPage()
-                          .addBillingAddress()
+
                           .confirmOrder()
                           .verifyOrderConfirmedSuccessfully();
     }
