@@ -66,7 +66,7 @@ public class CheckoutPage {
 
 
     @Step("Add billing address")
-    public CheckoutPage addBillingAddress1(){
+    public CheckoutPage addBillingAddress(){
         setFirstNameInput(testData.getTestData("UserInfo.firstName"));
         setLastNameInput(testData.getTestData("UserInfo.LastName"));
         setAddress1Input(testData.getTestData("UserInfo.Address1"));
