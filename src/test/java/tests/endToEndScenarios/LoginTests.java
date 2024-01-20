@@ -1,4 +1,4 @@
-package tests;
+package tests.endToEndScenarios;
 
 import com.shaft.driver.SHAFT;
 import io.qameta.allure.*;

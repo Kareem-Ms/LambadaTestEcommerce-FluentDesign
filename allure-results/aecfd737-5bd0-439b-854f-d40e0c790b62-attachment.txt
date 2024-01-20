@@ -1,0 +1,184 @@
+[INFO ] 2024-01-20 18:09:12.282 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.7.4.20231015[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-20 18:09:12.709 [main] ReportManager - Loaded OpenCV "opencv_java470".
+[INFO ] 2024-01-20 18:09:12.709 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-01-20 18:09:12.740 [main] ReportManager - Executing: "chmod u+x generate_allure_report.sh" locally.
+[INFO ] 2024-01-20 18:09:12.750 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: "chmod u+x generate_allure_report.sh" | Exit Status: "0"".
+[INFO ] 2024-01-20 18:09:12.805 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative File Path: "allure-results/environment.xml"".
+[INFO ] 2024-01-20 18:09:12.809 [main] ReportManager - File Action "WriteToFile" successfully performed. With the following test data "Target File Path: "/home/kareem/Documents/automation projects/LambadaTestEcommerce-FluentDesign/allure-results/environment.xml"".
+[INFO ] 2024-01-20 18:09:12.811 [main] ReportManager - Initializing Extent Reporting Environment...
+[INFO ] 2024-01-20 18:09:13.223 [main] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-01-20 18:09:13.238 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-01-20 18:09:13.443 [main] Utils - [TestNG] Running:
+  /home/kareem/.cache/JetBrains/IdeaIC2023.3/temp-testng-customsuite.xml
+
+[INFO ] 2024-01-20 18:09:13.472 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-20 18:09:13.563 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-01-20 18:09:13.568 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-01-20 18:09:13.688 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                'tests.endToEndScenarios.RegisterUserTests.setUp'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-20 18:09:13.709 [main] ReportManager - Setting "targetOperatingSystem" property with "linux".
+[INFO ] 2024-01-20 18:09:13.724 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: /home/kareem/Documents/auto..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-01-20 18:09:13.726 [main] ReportManager - Attempting to run locally on: "linux | Chrome".
+[INFO ] 2024-01-20 18:09:13.726 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-01-20 18:09:15.666 [main] ReportManager - Jan 20, 2024 6:09:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-01-20 18:09:15.666 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+[INFO ] 2024-01-20 18:09:15.679 [main] ReportManager - Successfully Opened: "linux | Chrome".
+[INFO ] 2024-01-20 18:09:15.687 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:15.688 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:15.688 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:15.692 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-01-20 18:09:15.804 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 2' test cases in the current suite                                        
+                                Test Method: 'tests.endToEndScenarios.RegisterUserTests.VerifyRegisteringNewUser'                                
+                                                 Test Description: 'Verify registering new user'                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-20 18:09:15.812 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:15.812 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:17.110 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:17.110 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:17.218 [main] ReportManager - Target URL: "https://ecommerce-playground.lambdatest.io/index.php?route=account/register"
+[INFO ] 2024-01-20 18:09:17.248 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-01-20 18:09:21.740 [main] ReportManager - Navigate to url "https://ecommerce-playground.lambdatest.io/index.php?route=account/register".
+[INFO ] 2024-01-20 18:09:21.741 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:21.742 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:22.024 [main] ReportManager - Type "Mohamed" into "First Name*".
+[INFO ] 2024-01-20 18:09:22.025 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:22.026 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:22.218 [main] ReportManager - Type "Ahmed" into "Last Name*".
+[INFO ] 2024-01-20 18:09:22.404 [main] ReportManager - Type "johnDoe20012024180913357@gmail.com" into "E-Mail*".
+[INFO ] 2024-01-20 18:09:22.405 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:22.405 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:22.578 [main] ReportManager - Type "01129345877" into "Telephone*".
+[INFO ] 2024-01-20 18:09:22.579 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:22.580 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:22.764 [main] ReportManager - Type "tester123" into "Password*".
+[INFO ] 2024-01-20 18:09:22.765 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:22.765 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:22.939 [main] ReportManager - Type "tester123" into "Password Confirm*".
+[INFO ] 2024-01-20 18:09:23.160 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-20 18:09:23.257 [main] ReportManager - Click "By.xpath: //label[@for = 'input-newsletter-yes']".
+[INFO ] 2024-01-20 18:09:23.443 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-20 18:09:23.538 [main] ReportManager - Click "By.xpath: //label[@for = 'input-agree']".
+[INFO ] 2024-01-20 18:09:23.727 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-20 18:09:23.842 [main] ReportManager - Click "Continue".
+[INFO ] 2024-01-20 18:09:23.848 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:23.849 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:25.863 [main] ReportManager - Get text "Your Account Has Been Created!" from " Your Account Has Been Created!".
+[INFO ] 2024-01-20 18:09:25.863 [main] ReportManager - Expected "Account Has Been Created", and actual "Your Account Has Been Created!"
+[INFO ] 2024-01-20 18:09:26.888 [main] ReportManager - Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'Account Has Been Created' for the 'text' attribute, element locator 'By.className: page-title'" and Actual "Your Account Has Been Created!". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2024-01-20 18:09:26.912 [main] ReportManager - Successfully created attachment 'Screenshot - 1705766966237_VerifyRegisteringNewUser_ValidateElementAttribute_passed'
+[INFO ] 2024-01-20 18:09:26.926 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2024-01-20 18:09:26.929 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyRegisteringNewUser'
+[INFO ] 2024-01-20 18:09:26.930 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                     Finished Execution of Test Method: 'tests.endToEndScenarios.RegisterUserTests.VerifyRegisteringNewUser'                     
+                                                 Test Description: 'Verify registering new user'                                                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-20 18:09:26.943 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                              'tests.endToEndScenarios.RegisterUserTests.tearDown'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-20 18:09:27.101 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2024-01-20 18:09:27.103 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-01-20 18:09:27.104 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-01-20 18:09:27.108 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                'tests.endToEndScenarios.RegisterUserTests.setUp'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-20 18:09:27.111 [main] ReportManager - Setting "targetOperatingSystem" property with "linux".
+[INFO ] 2024-01-20 18:09:27.114 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Calculat..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --disable-features=Autofill..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-features=MediaRouter, --disable-features=Translate, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-features=AvoidUnn..., --disable-features=Certific..., --disable-sync, --disable-features=Optimiza..., --disable-features=DialMedi..., --disable-features=GlobalMe..., --disable-features=Improved..., --disable-features=LazyFram..., --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --disable-features=Interest...], extensions: [], prefs: {download.default_directory: /home/kareem/Documents/auto..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: none, timeouts: {pageLoad: 60000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-01-20 18:09:27.115 [main] ReportManager - Attempting to run locally on: "linux | Chrome".
+[INFO ] 2024-01-20 18:09:27.116 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2024-01-20 18:09:28.479 [main] ReportManager - Jan 20, 2024 6:09:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-01-20 18:09:28.479 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+[INFO ] 2024-01-20 18:09:28.480 [main] ReportManager - Successfully Opened: "linux | Chrome".
+[INFO ] 2024-01-20 18:09:28.481 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:28.481 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:28.482 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:28.483 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-01-20 18:09:28.487 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 2' test cases in the current suite                                        
+                             Test Method: 'tests.endToEndScenarios.RegisterUserTests.VerifyRegisteringExistingUser'                             
+                                             Test Description: 'Verify registering an existing user'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-20 18:09:28.512 [main] ReportManager - Target URL: "https://ecommerce-playground.lambdatest.io/index.php?route=account/register"
+[INFO ] 2024-01-20 18:09:28.551 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-01-20 18:09:31.815 [main] ReportManager - Navigate to url "https://ecommerce-playground.lambdatest.io/index.php?route=account/register".
+[INFO ] 2024-01-20 18:09:31.815 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:31.816 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:32.030 [main] ReportManager - Type "Mohamed" into "First Name*".
+[INFO ] 2024-01-20 18:09:32.031 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:32.032 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:32.208 [main] ReportManager - Type "Ahmed" into "Last Name*".
+[INFO ] 2024-01-20 18:09:32.386 [main] ReportManager - Type "johnDoe20012024180913357@gmail.com" into "E-Mail*".
+[INFO ] 2024-01-20 18:09:32.387 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:32.388 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:32.556 [main] ReportManager - Type "01129345877" into "Telephone*".
+[INFO ] 2024-01-20 18:09:32.557 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:32.557 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:32.743 [main] ReportManager - Type "tester123" into "Password*".
+[INFO ] 2024-01-20 18:09:32.744 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:32.744 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:32.914 [main] ReportManager - Type "tester123" into "Password Confirm*".
+[INFO ] 2024-01-20 18:09:33.125 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-20 18:09:33.191 [main] ReportManager - Click "By.xpath: //label[@for = 'input-newsletter-yes']".
+[INFO ] 2024-01-20 18:09:33.388 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-20 18:09:33.456 [main] ReportManager - Click "By.xpath: //label[@for = 'input-agree']".
+[INFO ] 2024-01-20 18:09:33.639 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-01-20 18:09:33.723 [main] ReportManager - Click "Continue".
+[INFO ] 2024-01-20 18:09:33.724 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:33.724 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"".
+[INFO ] 2024-01-20 18:09:35.074 [main] ReportManager - Get text "Warning: E-Mail Address is already registered!" from "By.className: alert-danger".
+[INFO ] 2024-01-20 18:09:35.074 [main] ReportManager - Expected "E-Mail Address is already registered", and actual "Warning: E-Mail Address is already registered!"
+[INFO ] 2024-01-20 18:09:35.523 [main] ReportManager - Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'E-Mail Address is already registered' for the 'text' attribute, element locator 'By.className: alert-danger'" and Actual "Warning: E-Mail Address is already registered!". Comparison Type "CONTAINS". Validation Type "POSITIVE".
+[INFO ] 2024-01-20 18:09:35.528 [main] ReportManager - Successfully created attachment 'Screenshot - 1705766975401_VerifyRegisteringExistingUser_ValidateElementAttribute_passed'
+[INFO ] 2024-01-20 18:09:35.529 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2024-01-20 18:09:35.530 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: VerifyRegisteringExistingUser'
+[INFO ] 2024-01-20 18:09:35.530 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                  Finished Execution of Test Method: 'tests.endToEndScenarios.RegisterUserTests.VerifyRegisteringExistingUser'                  
+                                             Test Description: 'Verify registering an existing user'                                             
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-20 18:09:35.532 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                              'tests.endToEndScenarios.RegisterUserTests.tearDown'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-20 18:09:35.685 [main] ReportManager - Successfully Closed Driver.
+[ERROR] 2024-01-20 18:09:35.687 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-01-20 18:09:35.687 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-01-20 18:09:35.697 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine teardown configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTeardown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-01-20 18:09:35.699 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[INFO ] 2024-01-20 18:09:35.700 [main] ReportManager - File Action "DoesFileExist" successfully performed. With the following test data "File Path: "target/logs/log4j.log"".
+[INFO ] 2024-01-20 18:09:35.701 [main] ReportManager - File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "target/logs/log4j.log"".

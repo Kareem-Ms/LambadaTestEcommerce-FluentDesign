@@ -1,6 +1,7 @@
 package pages;
 
 import com.shaft.driver.SHAFT;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class CheckoutPage {
@@ -23,52 +24,66 @@ public class CheckoutPage {
     By RegionDroDownLocator = By.id("input-payment-zone");
     By AgreeToTermsInputLocator = By.cssSelector("label[for = 'input-agree']");
     By ContinueBtnLocator = By.id("button-save");
+    By ConfirmOrderButton = By.id("button-confirm");
+    By ConfirmOrderConfirmationMsg = By.className("page-title");
 
     //********** Single Actions **********\\
-    public void setFirstNameInput(){
-        driver.element().type(firstNameInputLocator,"Ahmed");
+    @Step("Enter [{firstName}] into first name field")
+    public void setFirstNameInput(String firstName){
+        driver.element().type(firstNameInputLocator,firstName);
     }
 
-    public void setLastNameInput(){
-        driver.element().type(lastNameInputLocator, "mohamed");
+    @Step("Enter [{lastName}] into last name field")
+    public void setLastNameInput(String lastName){
+        driver.element().type(lastNameInputLocator, lastName);
     }
-
-    public void setAddress1Input(){
-        driver.element().type(Address1InputLocator, "Address 1");
+    @Step("Enter [{address}] into Address 1 field")
+    public void setAddress1Input(String address){
+        driver.element().type(Address1InputLocator, address);
     }
-
-    public void setCityInput(){
-        driver.element().type(CityInpuLocator, "Cairo");
+    @Step("Enter [{city}] into city field")
+    public void setCityInput(String city){
+        driver.element().type(CityInpuLocator, city);
     }
-
-    public void selectCountry(){
-        driver.element().select(CountryDropDownLocator,"Egypt");
+    @Step("Enter [{country}] into country field")
+    public void selectCountry(String country){
+        driver.element().select(CountryDropDownLocator,country);
     }
-
-    public void selectRegion(){
-        driver.element().select(RegionDroDownLocator,"Ad Daqahliyah");
+    @Step("Enter [{region}] into region field")
+    public void selectRegion(String region){
+        driver.element().select(RegionDroDownLocator,region);
     }
-
+    @Step("Click on Agree to terms checkbox")
     public void checkAgreeToTermsCheckBox(){
         driver.element().click(AgreeToTermsInputLocator);
     }
-
+    @Step("Click on continue button")
     public void clickOnContinueBtn(){
         driver.element().click(ContinueBtnLocator);
     }
 
     //************ Main Actions ***********\\
+    @Step("Add billing address")
     public CheckoutPage addBillingAddress(){
-        setFirstNameInput();
-        setLastNameInput();
-        setAddress1Input();
-        setCityInput();
-        selectCountry();
-        selectRegion();
+        setFirstNameInput(testData.getTestData("UserInfo.firstName"));
+        setLastNameInput(testData.getTestData("UserInfo.LastName"));
+        setAddress1Input(testData.getTestData("UserInfo.Address1"));
+        setCityInput(testData.getTestData("UserInfo.City"));
+        selectCountry(testData.getTestData("UserInfo.Country"));
+        selectRegion(testData.getTestData("UserInfo.Region"));
         checkAgreeToTermsCheckBox();
         clickOnContinueBtn();
         return this;
     }
 
+    @Step("Click on confirm order button")
+    public CheckoutPage confirmOrder(){
+        driver.element().click(ConfirmOrderButton);
+        return this;
+    }
+
     //************ Validations ************\\
+    public void verifyOrderConfirmedSuccessfully(){
+        driver.verifyThat().element(ConfirmOrderConfirmationMsg).text().equals("Your order has been placed!");
+    }
 }

@@ -1,0 +1,40 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 2' test cases in the current suite                                        
+                             Test Method: 'tests.endToEndScenarios.RegisterUserTests.VerifyRegisteringExistingUser'                             
+                                             Test Description: 'Verify registering an existing user'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://ecommerce-playground.lambdatest.io/index.php?route=account/register" @20-01-2024 18:09:28.0512 PM
+[ReportManager] Initial URL: "about:blank" @20-01-2024 18:09:28.0551 PM
+[ReportManager] Navigate to url "https://ecommerce-playground.lambdatest.io/index.php?route=account/register". @20-01-2024 18:09:31.0814 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"". @20-01-2024 18:09:31.0815 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"". @20-01-2024 18:09:31.0815 PM
+[ReportManager] Type "Mohamed" into "First Name*". @20-01-2024 18:09:32.0030 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"". @20-01-2024 18:09:32.0031 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"". @20-01-2024 18:09:32.0031 PM
+[ReportManager] Type "Ahmed" into "Last Name*". @20-01-2024 18:09:32.0207 PM
+[ReportManager] Type "johnDoe20012024180913357@gmail.com" into "E-Mail*". @20-01-2024 18:09:32.0386 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"". @20-01-2024 18:09:32.0387 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"". @20-01-2024 18:09:32.0388 PM
+[ReportManager] Type "01129345877" into "Telephone*". @20-01-2024 18:09:32.0556 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"". @20-01-2024 18:09:32.0557 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"". @20-01-2024 18:09:32.0557 PM
+[ReportManager] Type "tester123" into "Password*". @20-01-2024 18:09:32.0743 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"". @20-01-2024 18:09:32.0743 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"". @20-01-2024 18:09:32.0744 PM
+[ReportManager] Type "tester123" into "Password Confirm*". @20-01-2024 18:09:32.0914 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-01-2024 18:09:33.0124 PM
+[ReportManager] Click "By.xpath: //label[@for = 'input-newsletter-yes']". @20-01-2024 18:09:33.0191 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-01-2024 18:09:33.0387 PM
+[ReportManager] Click "By.xpath: //label[@for = 'input-agree']". @20-01-2024 18:09:33.0456 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-01-2024 18:09:33.0638 PM
+[ReportManager] Click "Continue". @20-01-2024 18:09:33.0723 PM
+[ReportManager] File Action "DoesFileExist" successfully performed. With the following test data "File Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"". @20-01-2024 18:09:33.0724 PM
+[ReportManager] File Action "GetAbsolutePath" successfully performed. With the following test data "Relative Folder Path: "src/test/resources/testDataFiles/RegisterUserTestData.json"". @20-01-2024 18:09:33.0724 PM
+[ReportManager] Get text "Warning: E-Mail Address is already registered!" from "By.className: alert-danger". @20-01-2024 18:09:35.0073 PM
+[ReportManager] Expected "E-Mail Address is already registered", and actual "Warning: E-Mail Address is already registered!" @20-01-2024 18:09:35.0074 PM
+[ReportManager] Verification "ValidateElementAttribute" PASSED. Expected "Value Should be 'E-Mail Address is already registered' for the 'text' attribute, element locator 'By.className: alert-danger'" and Actual "Warning: E-Mail Address is already registered!". Comparison Type "CONTAINS". Validation Type "POSITIVE". @20-01-2024 18:09:35.0523 PM
+[ReportManager] Verification Passed: The Element located by "By.className: alert-danger" text contains "E-Mail Address is already registered". @20-01-2024 18:09:35.0524 PM
+[ReportManager] Successfully created attachment 'Screenshot - 1705766975401_VerifyRegisteringExistingUser_ValidateElementAttribute_passed' @20-01-2024 18:09:35.0527 PM
+[ReportManager] Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp' @20-01-2024 18:09:35.0529 P

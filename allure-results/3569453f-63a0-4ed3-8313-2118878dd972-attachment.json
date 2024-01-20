@@ -5,8 +5,7 @@
     "email": "johnDoe",
     "domain": "@gmail.com",
     "phoneNumber": "01129345877",
-    "password": "tester123",
-    "Product_Name": "iPod Shuffle"
+    "password": "tester123"
   },
   "messages": {
     "SuccessfullRegistration": "Account Has Been Created",

@@ -5,12 +5,7 @@
     "email": "johnDoe",
     "domain": "@gmail.com",
     "phoneNumber": "01129345877",
-    "password": "tester123",
-    "Product_Name": "iPod Shuffle",
-    "Address1": "Address 1",
-    "City": "Cairo",
-    "Country": "Egypt",
-    "Region": "Ad Daqahliyah"
+    "password": "tester123"
   },
   "messages": {
     "SuccessfullRegistration": "Account Has Been Created",
