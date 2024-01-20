@@ -56,7 +56,8 @@ public class CheckOutTests {
     public void validateCheckingOut(){
         productDetailsPage.openCheckoutPage()
                           .addBillingAddress()
-                          .confirmOrder();
+                          .confirmOrder()
+                          .verifyOrderConfirmedSuccessfully();
     }
 
     //********** Configurations **********\\
